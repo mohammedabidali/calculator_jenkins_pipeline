@@ -75,6 +75,15 @@ you will find a JSON report for JGiven output:
 ### In `project dashboard`:
 - You can click `Build Now` to trigger the build manualy and check if it has been set up correctly.
 - Under `Build History` you will see the build in real time. you can click on it to see it working. You can check the logs within the build to see if it has built successfully or if there are any errors that need to be resolved.
+# Setting up Webhooks in GitHub:
+- Select a project from your current repository
+- Select `Settings` from the top bar
+- Select `Webhooks` from the side bar
+- Click on `Add webhook`
+- Under `Payload URL`, type in something like `http://'Jenkins server IP address':8080/github-webhook/`
+- Under `Which events would you like to trigger this webhook?` click on `Let me select individual events`
+- From those options, make sure to keep `Pushes`, `Pull requests`, and `Active` ticked
+- Finally, click on `Add webhook`
 # Setting up Jenkins CI-Merge
 - The set up of future projects after the first one are very similar.
 - Select `New Item` from the Jenkins dashboard
