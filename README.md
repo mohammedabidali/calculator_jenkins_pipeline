@@ -50,7 +50,7 @@ you will find a JSON report for JGiven output:
 ### In `Source Code Management`:
 - tick the 'Git' box and it will expand to give you more options
 - Under `Repositories` header:
-- for `Repository URL` provide the ssh url from GitHub. E.g. 'git@github.com:mohammedabidali/calculator_jenkins_pipeline.git'
+- for `Repository URL` provide the ssh url from GitHub. E.g. git@github.com:mohammedabidali/calculator_jenkins_pipeline.git
 - If you have previously created your ssh `credentials` then select it from the drop down menu, otherwise add a new key by clicking the `Add` option, and selecting `Jenkins` from the drop down menu. (only has Jenkins as an option anyway):
 1. Within `Jenkins Credentials Provider: Jenkins`, select `SSH Username with private key` for the `Kind`, and add a short description of the key as well as provide a username so that you can distinguish your key.
 2. Now paste your private key by ticking the `Enter directly` option under `Private Key` header.
